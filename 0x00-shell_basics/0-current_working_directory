@@ -1,0 +1,6 @@
+#!/bin/bash
+
+current_dir=$(pwd)
+absolute_path=$(cd "$current_dir" && pwd)
+
+echo "Absolute path: $absolute_path"
